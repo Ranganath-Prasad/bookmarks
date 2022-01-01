@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <title>Ranga's Bookmarks!</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">BOOKMARKS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a id="angularLink" data="angular" class="nav-link active" href="javascript:void(0)">Angular</a>
+            </li>
+            <li class="nav-item">
+              <a id="csharpLink" data="csharp" class="nav-link" href="javascript:void(0)">C#</a>
+            </li>
+          </ul>
+          <form id="searchForm" class="d-flex">
+            <input id="searchValue" class="form-control me-sm-2" type="text" placeholder="Search a post">
+            <button id="searchButton" class="btn btn-secondary my-2 my-sm-0" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <table class="table table-hover mt-4" id="tblBookmarks">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Topic</th>
+          <th scope="col">Post</th>
+          <th scope="col">Complexity</th>
+        </tr>
+      </thead>
+      <tbody id="tblBookmarksBody">
+        <!-- bookmarks will be loaded here dynamically-->
+      </tbody>
+    </table>
+  </div>
+
+
+  <script type="text/javascript" src="./data.js"></script>
+  <script>
+    window.addEventListener('load', loadBookmarks);
+    document.getElementById("angularLink").addEventListener('click', loadBookmarks);
+    document.getElementById("csharpLink").addEventListener('click', loadBookmarks);
+    document.getElementById('searchButton').addEventListener('click', function (event) {
+      var searchValue = document.getElementById('searchValue').value;
+      var bookmarks = data.data.filter(el => el.post.toUpperCase().indexOf(searchValue.toUpperCase()) > -1);
+      renderBookmarks(bookmarks);
+    });
+
+    function loadBookmarks(event) {
+      var technology = 'angular';
+      if (event.target.attributes != undefined) {
+        technology = event.target.attributes['data'].value;
+      }
+      var bookmarks = data.data.filter(el => el.technology == technology);
+      renderBookmarks(bookmarks);
+    }
+
+    function renderBookmarks(bookmarks) {
+      var tblBookmarksBodyEle = document.getElementById("tblBookmarksBody");
+      tblBookmarksBodyEle.innerHTML = "";
+      bookmarks.forEach((el, index) => {
+        tblBookmarksBodyEle.innerHTML +=
+          " <tr> <td> " + (index + 1) +
+          "</td> <td>" + el.topic +
+          "</td> <td><a href='" + el.link + "' target='_blank'>" + el.post +
+          "</a></td> <td>" + el.complexity +
+          "</td>  </tr>";
+      })
+    };
+  </script>
+</body>
+
+</html>
