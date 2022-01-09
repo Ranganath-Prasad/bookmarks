@@ -35,6 +35,15 @@
             <li class="nav-item">
               <a id="csharpLink" data="csharp" class="nav-link" href="javascript:void(0)">C#</a>
             </li>
+            <li class="nav-item">
+              <a id="csharpLink" data="webapi" class="nav-link" href="javascript:void(0)">Web Api</a>
+            </li>
+            <li class="nav-item">
+              <a id="csharpLink" data="efcore" class="nav-link" href="javascript:void(0)">EF Core</a>
+            </li>
+            <li class="nav-item">
+              <a id="csharpLink" data="sqlserver" class="nav-link" href="javascript:void(0)">Sql Server</a>
+            </li>
           </ul>
           <form id="searchForm" class="d-flex">
             <input id="searchValue" class="form-control me-sm-2" type="text" placeholder="Search a post">
@@ -60,10 +69,14 @@
 
 
   <script type="text/javascript" src="./data.js"></script>
-  <script>
-    window.addEventListener('load', loadBookmarks);
-    document.getElementById("angularLink").addEventListener('click', loadBookmarks);
-    document.getElementById("csharpLink").addEventListener('click', loadBookmarks);
+ 
+ <script>
+  
+  window.addEventListener('load', loadBookmarks);
+
+    var allMenuItems = document.querySelectorAll(".nav-item > .nav-link");
+    allMenuItems.forEach(menuItem => menuItem.addEventListener('click', loadBookmarks));
+
     document.getElementById('searchButton').addEventListener('click', function (event) {
       var searchValue = document.getElementById('searchValue').value;
       var bookmarks = data.data.filter(el => el.post.toUpperCase().indexOf(searchValue.toUpperCase()) > -1);
@@ -71,7 +84,7 @@
     });
 
     function loadBookmarks(event) {
-      var technology = 'angular';
+      var technology = 'angular'; // default
       if (event.target.attributes != undefined) {
         technology = event.target.attributes['data'].value;
         setMenuItemAsActive(event);
@@ -87,16 +100,23 @@
         tblBookmarksBodyEle.innerHTML +=
           " <tr> <td> " + (index + 1) +
           "</td> <td>" + el.topic +
-          "</td> <td><a href='" + el.link + "' target='_blank'>" + el.post +
+          "</td> <td><a href='" + el.link + "' target='_blank'>" + el.post + getLinkIcon(el.linkType) +
           "</a></td> <td>" + el.complexity +
           "</td>  </tr>";
       })
     };
 
+    function getLinkIcon(linkType) {
+      if(linkType=='video') {
+        return "<img src='./assets/video.png' width='18px' style='margin-left: 3px' alt='video image'></img>";
+      }
+      else{
+        return "<img src='./assets/text.png' width='18px' style='margin-left: 3px' alt='text image'></img>";
+      }
+    }
     function setMenuItemAsActive(event){
-      console.log(event);
-      document.getElementById("angularLink").classList.remove('active');
-      document.getElementById("csharpLink").classList.remove('active');
+      var allMenuItems = document.querySelectorAll(".nav-item > .nav-link");
+      allMenuItems.forEach(menuItem => menuItem.classList.remove('active'));
       event.target.classList.add('active');
     }
 

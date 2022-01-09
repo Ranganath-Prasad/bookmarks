@@ -1,34 +1,34 @@
 var data = {"data": [
     {
-    "technology" : "csharp",
-    "topic":"Collections",
+    "technology" : "efcore",
+    "topic":"LINQ TO SQL",
     "post":"AsEnumerable Vs AsQueryable",
     "complexity": "Basic",
-    "link": "http://google.com",
+    "link": "https://www.youtube.com/watch?v=zGug_IYlNts",
     "linkType": "video"
     },
      {
-    "technology" : "angular",
-    "topic":"Routing",
-    "post":"Angular Routes - 1",
+    "technology" : "efcore",
+    "topic":"LINQ TO SQL",
+    "post":"Executing Raw SQL Queries",
     "complexity": "Basic",
-    "link": "http://google.com",
-    "linkType": "video"
+    "link": "https://www.c-sharpcorner.com/blogs/fromsqlraw-vs-fromsqlinterpolated",
+    "linkType": "article"
     },
       {
-    "technology" : "angular",
-    "topic":"Routing",
-    "post":"Angular Routes - 2",
-    "complexity": "Intermediate",
-    "link": "http://google.com",
-    "linkType": "video"
+    "technology" : "webapi",
+    "topic":"Error Handling",
+    "post":"Standardize Error Responses",
+    "complexity": "Basic",
+    "link": "https://www.c-sharpcorner.com/article/standardize-you-web-apis-response-with/",
+    "linkType": "article"
     },
-        {
+    {
     "technology" : "angular",
-    "topic":"Routing",
-    "post":"Angular Routes - 3",
-    "complexity": "Intermediate",
-    "link": "http://google.com",
+    "topic":"Reusablility",
+    "post":"Content Projection",
+    "complexity": "Basic",
+    "link": "https://www.youtube.com/watch?v=2SJ9Ch8jX3A",
     "linkType": "video"
     }
     ]
