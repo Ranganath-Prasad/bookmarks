@@ -62,6 +62,22 @@ var data = {"data": [
     "complexity": "Basic",
     "link": "https://angular-university.io/lesson/angular-beginners-ngstyle",
     "linkType": "video"
+    },
+    {
+    "technology" : "angular",
+    "topic":"Directives",
+    "post":"Built-in Directives - ngSwitch",
+    "complexity": "Basic",
+    "link": "https://angular-university.io/lesson/angular-beginners-ngswitch",
+    "linkType": "video"
+    },
+     {
+    "technology" : "angular",
+    "topic":"Directives",
+    "post":"Built-in Directives - ngSwitchCase OR condition",
+    "complexity": "Intermediate",
+    "link": "https://stackoverflow.com/questions/43775796/angular-2-ngswitchcase-or-operator-not-working",
+    "linkType": "article"
     }
     ]
 }
