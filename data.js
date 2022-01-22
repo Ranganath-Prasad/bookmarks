@@ -78,6 +78,14 @@ var data = {"data": [
     "complexity": "Intermediate",
     "link": "https://stackoverflow.com/questions/43775796/angular-2-ngswitchcase-or-operator-not-working",
     "linkType": "article"
-    }
+    },
+    {
+    "technology" : "angular",
+    "topic":"Pipes",
+    "post":"Built-in Pipes",
+    "complexity": "Basic",
+    "link": "https://angular-university.io/lesson/angular-beginners-pipes",
+    "linkType": "video"
+    },
     ]
 }
