@@ -30,6 +30,38 @@ var data = {"data": [
     "complexity": "Basic",
     "link": "https://www.youtube.com/watch?v=2SJ9Ch8jX3A",
     "linkType": "video"
+    },
+    {
+    "technology" : "angular",
+    "topic":"Directives",
+    "post":"Built-in Directives - ngFor",
+    "complexity": "Basic",
+    "link": "https://angular-university.io/lesson/angular-beginners-ngfor",
+    "linkType": "video"
+    },
+    {
+    "technology" : "angular",
+    "topic":"Directives",
+    "post":"Built-in Directives - ngIf",
+    "complexity": "Basic",
+    "link": "https://angular-university.io/lesson/angular-beginners-ngif",
+    "linkType": "video"
+    },
+    {
+    "technology" : "angular",
+    "topic":"Directives",
+    "post":"Built-in Directives - ngClass",
+    "complexity": "Basic",
+    "link": "https://angular-university.io/lesson/angular-beginners-ngclass",
+    "linkType": "video"
+    },
+     {
+    "technology" : "angular",
+    "topic":"Directives",
+    "post":"Built-in Directives - ngStyle",
+    "complexity": "Basic",
+    "link": "https://angular-university.io/lesson/angular-beginners-ngstyle",
+    "linkType": "video"
     }
     ]
 }
