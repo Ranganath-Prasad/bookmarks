@@ -94,7 +94,8 @@ var data = {"data": [
     "complexity": "Intermediate",
     "link": "https://youtu.be/XRplR3Srr1k",
     "linkType": "video"
-    }{
+    },
+    {
     "technology" : "angular",
     "topic":"Pipes",
     "post":"Async Pipes",
