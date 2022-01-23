@@ -87,5 +87,19 @@ var data = {"data": [
     "link": "https://angular-university.io/lesson/angular-beginners-pipes",
     "linkType": "video"
     },
-    ]
+    {
+    "technology" : "angular",
+    "topic":"Pipes",
+    "post":"Custom Pipes",
+    "complexity": "Intermediate",
+    "link": "https://youtu.be/XRplR3Srr1k",
+    "linkType": "video"
+    }{
+    "technology" : "angular",
+    "topic":"Pipes",
+    "post":"Async Pipes",
+    "complexity": "Intermediate",
+    "link": "https://youtu.be/l5jARPyOlkM",
+    "linkType": "video"
+    }]
 }
