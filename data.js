@@ -102,5 +102,13 @@ var data = {"data": [
     "complexity": "Intermediate",
     "link": "https://youtu.be/l5jARPyOlkM",
     "linkType": "video"
+    },
+{
+    "technology" : "angular",
+    "topic":"dynamic content",
+    "post":"ng-template, ngtemplateoutlet, ng-container",
+    "complexity": "Intermediate",
+    "link": "https://blog.angular-university.io/angular-ng-template-ng-container-ngtemplateoutlet/",
+    "linkType": "article"
     }]
 }
