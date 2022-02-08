@@ -118,5 +118,13 @@ var data = {"data": [
     "complexity": "Intermediate",
     "link": "https://www.red-gate.com/simple-talk/devops/testing/load-stress-testing-net-apps-with-apache-jmeter/",
     "linkType": "article"
+    },
+{
+    "technology" : "programming",
+    "topic":"Reverse a value",
+    "post":"Reverse an integer",
+    "complexity": "Basic",
+    "link": "https://www.geeksforgeeks.org/write-a-program-to-reverse-digits-of-a-number/",
+    "linkType": "article"
     }]
 }
