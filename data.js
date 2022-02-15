@@ -119,6 +119,14 @@ var data = {"data": [
     "link": "https://www.tektutorialshub.com/angular/understanding-viewchild-viewchildren-querylist-in-angular/",
     "linkType": "article"
     },
+     {
+    "technology" : "angular",
+    "topic":"RxJS",
+    "post":"Observables",
+    "complexity": "Basic",
+    "link": "https://www.tektutorialshub.com/angular/angular-observable-tutorial-using-rxjs/",
+    "linkType": "article"
+    },
 {
     "technology" : "webapi",
     "topic":"Load test",
