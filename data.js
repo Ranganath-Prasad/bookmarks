@@ -127,6 +127,14 @@ var data = {"data": [
     "link": "https://www.tektutorialshub.com/angular/angular-observable-tutorial-using-rxjs/",
     "linkType": "article"
     },
+      {
+    "technology" : "angular",
+    "topic":"RxJS",
+    "post":"Observables - Of vs From",
+    "complexity": "Basic",
+    "link": "https://www.tektutorialshub.com/angular/rxjs-observable-using-create-of-from-in-angular/",
+    "linkType": "article"
+    },
 {
     "technology" : "webapi",
     "topic":"Load test",
