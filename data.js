@@ -135,6 +135,14 @@ var data = {"data": [
     "link": "https://www.tektutorialshub.com/angular/rxjs-observable-using-create-of-from-in-angular/",
     "linkType": "article"
     },
+    {
+    "technology" : "angular",
+    "topic":"RxJS",
+    "post":"Subjects",
+    "complexity": "Basic",
+    "link": "https://www.tektutorialshub.com/angular/subjects-in-angular/",
+    "linkType": "article"
+    },
 {
     "technology" : "webapi",
     "topic":"Load test",
