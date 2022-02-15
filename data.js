@@ -111,6 +111,14 @@ var data = {"data": [
     "link": "https://blog.angular-university.io/angular-ng-template-ng-container-ngtemplateoutlet/",
     "linkType": "article"
     },
+    {
+    "technology" : "angular",
+    "topic":"Parent Child Component Interaction",
+    "post":"ViewChild and ViewChildren decorators",
+    "complexity": "Intermediate",
+    "link": "https://www.tektutorialshub.com/angular/understanding-viewchild-viewchildren-querylist-in-angular/",
+    "linkType": "article"
+    },
 {
     "technology" : "webapi",
     "topic":"Load test",
