@@ -156,7 +156,7 @@ var data = {"data": [
     "topic":"Reverse a value",
     "post":"Reverse an integer -  overflow handled",
     "complexity": "Basic",
-    "link": "https://www.geeksforgeeks.org/write-a-program-to-reverse-digits-of-a-number/",
+    "link": "https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Mathematical/Reverse%20Integer.cpp",
     "linkType": "article"
     },
 ]
