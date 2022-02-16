@@ -8,6 +8,14 @@ var data = {"data": [
     "linkType": "video"
     },
      {
+    "technology" : "csharp",
+    "topic":"Garbage Collection",
+    "post":"Dispose and Finalize",
+    "complexity": "Intermediate",
+    "link": "https://stackoverflow.com/questions/538060/proper-use-of-the-idisposable-interface",
+    "linkType": "article"
+    },
+     {
     "technology" : "efcore",
     "topic":"LINQ TO SQL",
     "post":"Executing Raw SQL Queries",
