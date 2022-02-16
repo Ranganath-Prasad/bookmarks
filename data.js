@@ -16,6 +16,14 @@ var data = {"data": [
     "linkType": "article"
     },
      {
+    "technology" : "csharp",
+    "topic":"OOPS",
+    "post":"Constructor in Abstract Class?",
+    "complexity": "Basic",
+    "link": "https://stackoverflow.com/questions/5601777/constructor-of-an-abstract-class-in-c-sharp",
+    "linkType": "article"
+    },
+     {
     "technology" : "efcore",
     "topic":"LINQ TO SQL",
     "post":"Executing Raw SQL Queries",
