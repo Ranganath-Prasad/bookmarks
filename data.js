@@ -129,6 +129,14 @@ var data = {"data": [
     },
     {
     "technology" : "angular",
+    "topic":"Performance",
+    "post":"ngFor - TrackBy",
+    "complexity": "Basic",
+    "link": "https://www.tektutorialshub.com/angular/angular-track-by-to-improve-ngfor-performance/",
+    "linkType": "article"
+    },
+    {
+    "technology" : "angular",
     "topic":"Parent Child Component Interaction",
     "post":"ViewChild and ViewChildren decorators",
     "complexity": "Intermediate",
