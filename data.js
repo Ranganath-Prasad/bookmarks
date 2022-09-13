@@ -36,7 +36,7 @@ var data = {"data": [
     "topic":"Error Handling",
     "post":"Standardize Error Responses",
     "complexity": "Basic",
-    "link": "https://www.c-sharpcorner.com/article/standardize-you-web-apis-response-with/",
+    "link": "https://www.c-sharpcorner.com/article/standardize-your-web-apis-error-response-with-problemdetails-class/",
     "linkType": "article"
     },
     {
@@ -174,6 +174,14 @@ var data = {"data": [
     "complexity": "Intermediate",
     "link": "https://www.red-gate.com/simple-talk/devops/testing/load-stress-testing-net-apps-with-apache-jmeter/",
     "linkType": "article"
+    },
+    {
+    "technology" : "webapi",
+    "topic":"Global Error Handling in Web Api",
+    "post":"Gloabl Error Handling in Web Api using built-in Middleware",
+    "complexity": "Basic",
+    "link": "https://www.youtube.com/watch?v=DkEwPquIurI",
+    "linkType": "video"
     },
 {
     "technology" : "programming",
