@@ -167,6 +167,14 @@ var data = {"data": [
     "link": "https://www.tektutorialshub.com/angular/subjects-in-angular/",
     "linkType": "article"
     },
+        {
+    "technology" : "angular",
+    "topic":"Component Interaction",
+    "post":"Subjects",
+    "complexity": "Basic",
+    "link": "https://lukeliutingchun.medium.com/angular-four-ways-for-communication-between-components-b743b9653f8#:~:text=Angular%20%E2%80%94%20Four%20Ways%20for%20Communication%20Between%20Components,dependency%20injection.%20...%204%204.%20Template%20Outlet%20",
+    "linkType": "article"
+    },
 {
     "technology" : "webapi",
     "topic":"Load test",
